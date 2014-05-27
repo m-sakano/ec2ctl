@@ -10,58 +10,36 @@ Control EC2 instances script
 - Individual EC2 users. Only you can access your EC2 instances.
 
 
-## Command Functions
+## Installation
 
-- Control existing EC2 instances power (Start|Stop|Status).
-- Set AWS Security Group acceessible from only your IP.
-- Set AWS Security Group acceessible from no any IP.
-- Show AWS Security Group if acceessible from any IP.
-
+- Install boto
+- Set credentials to ~/.boto
+- Get ec2ctl.py from git
+- Edit user variables in ec2ctl.py
+- 
 
 ## Command lines
 
 ### Power on EC2 Instance
+Power on EC2 Instance and set Security Group accessible from only your IP address.
 
 ```
-$ ec2ctl start
+$ python ec2ctl.py start
 ```
 
 ### Shutdown EC2 Instance
+Shutdown EC2 Instance and set Security Group accessible from no any IP address.
 
 ```
-$ ec2ctl stop
+$ python ec2ctl.py stop
 ```
 
 ### Show EC2 Instance status
 
 ```
-$ ec2ctl status
+$ python ec2ctl.py status
 ```
 
-### Set AWS Security Group acceessible from only your IP
-
-```
-$ ec2ctl <Group ID> set
-```
-
-### Set AWS Security Group acceessible from not any IP
-
-```
-$ ec2ctl <Group ID> unset
-```
-
-### Show AWS Security Group status if acceessible
-
-```
-$ ec2ctl <Group ID> status
-```
-
-
-## User Scripts
-
-### myEC2Start.sh
-
-### myEC2Stop.sh
 
 
 
