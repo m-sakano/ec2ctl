@@ -16,7 +16,7 @@ Control EC2 instances script
 - Set credentials to ~/.boto
 - Get ec2ctl.py from git
 - Edit user variables in ec2ctl.py
-- 
+
 
 ## Command lines
 
