@@ -21,14 +21,14 @@ Control EC2 instances script
 ## Command lines
 
 ### Power on EC2 Instance
-Power on EC2 Instance and set Security Group accessible from only your IP address.
+Power on EC2 Instance.
 
 ```
 $ python ec2ctl.py start
 ```
 
 ### Shutdown EC2 Instance
-Shutdown EC2 Instance and set Security Group accessible from no any IP address.
+Shutdown EC2 Instance.
 
 ```
 $ python ec2ctl.py stop
