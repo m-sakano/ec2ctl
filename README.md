@@ -23,19 +23,19 @@ Control EC2 instances script
 ### Power on EC2 Instance
 
 ```
-$ ec2ctl <Instance ID> start
+$ ec2ctl start
 ```
 
 ### Shutdown EC2 Instance
 
 ```
-$ ec2ctl <Instance ID> stop
+$ ec2ctl stop
 ```
 
 ### Show EC2 Instance status
 
 ```
-$ ec2ctl <Instance ID> status
+$ ec2ctl status
 ```
 
 ### Set AWS Security Group acceessible from only your IP
